@@ -1,0 +1,170 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;1,400&display=swap" rel="stylesheet">
+    <style>
+       *{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    
+}
+body{
+    display: flex;
+    justify-content: center;
+    
+    text-align: center;
+   font-family:  sans-serif;
+    
+}
+
+.contaner{
+    border: 2px solid rgb(189, 188, 188) ;
+    height: 700px;
+    width: 80%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 5px;
+    box-shadow: 1px 1px 9px #b3b1b1;
+    margin-top: 10px;
+}
+.box{
+    display: flex;
+  
+    flex-direction: column;
+      height: 514px;
+    /* width: 317px; */
+    margin-right: 120px;
+    margin-left: 120px;
+ 
+   
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+}
+h3{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    margin-bottom: 47px;
+    color: #444;
+    font-size: 27.895px;
+}
+.form label{
+ 
+    display: flex;
+    /* margin-right: 130px; */
+color: #444;
+/* font-family: 'POPPINS'; */
+font-size: 17PX;
+justify-content: space-between;
+line-height: 1.6;
+
+}
+input[TYPE="email"],
+input[TYPE="password"]{
+    border-radius: 7PX;
+    width: 400PX;
+    padding-left: 16px;
+    height: 37px;
+    background: #fff;
+    margin-bottom: 10px;
+    margin-top: 7px;
+    /* border-color: #b3b1b1; */
+    border: groove;
+}
+input:hover{
+    border-color: #4f46E5;
+    
+}
+.signup button
+{
+    cursor: pointer;
+    margin-top: 10px;
+    font-size: 17px;
+    width: 400PX;
+    height: 37px;
+    border-radius: 7PX;
+   background-color:#4f46E5;
+   color: white;
+   border:none;
+}
+button:hover{
+    background-color: #4f46E5;
+}
+ a{
+    text-decoration: none;
+    display: flex;
+
+}
+.para{
+    margin-top: 40px;
+    display: flex;
+    justify-content: center;
+    
+    font-size: 14px;
+    /* opacity: 0.7; */
+}
+img{
+    height: 26px;
+    width: 46px;
+    margin-bottom: 40px;
+}
+.para span{
+    color:#4f46E5; 
+    cursor: pointer;
+    
+
+}
+.para p{
+    opacity: 0.6;
+}
+    </style>
+    <title>login</title>
+</head>
+<body>
+    <div class="contaner">
+       
+      
+        <div class="box">
+            <div class="img">
+                <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/d/d5/Tailwind_CSS_Logo.svg/2560px-Tailwind_CSS_Logo.svg.png" alt="img">
+               </div>    
+            <div>
+                <h3>Sign in to your account</h3>
+               
+            </div>
+
+            <div class="form">
+                <form action="no-backend">
+                    
+                    <div>
+
+                        <label for="email">Email address</label>
+                        <input type="email" name="email" id="mail" >
+                    </div>
+                    <div>
+                        <label for="password">Password <a href="#">Forgot password?</a>  </label>
+                      
+                        <input type="password" name="password" id="password" >
+                      
+                    </div>
+
+                   
+                    <div class="signup">
+                    <button>sign in </button>
+                    </div>
+                    <div class="para">
+                        <p>Not a member?<span> Start a 14 day free trial </span> </p>
+
+                    </div>
+                </form>
+            </div>
+        </div>
+       
+    </div>
+</body>
+</html>
